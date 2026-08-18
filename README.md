@@ -1,4 +1,4 @@
-# Bashir Moamer — Personal Portfolio
+# Bashir Moamer - Personal Portfolio
 
 A professional, responsive software engineering portfolio showcasing my experience,
 selected projects, technical skills, and contact information.
