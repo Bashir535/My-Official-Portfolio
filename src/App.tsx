@@ -227,9 +227,9 @@ export default function App() {
 
       <section className="contact-section" id="contact">
         <p className="eyebrow">Contact</p>
-        <h2>Let’s build something useful.</h2>
+        <h2>Let’s Connect.</h2>
         <p>
-          I’m interested in software engineering internships, collaborative
+          I’m interested in software engineering opportunities, collaborative
           projects, and opportunities involving full-stack systems, cloud
           infrastructure, enterprise platforms, or applied AI.
         </p>
