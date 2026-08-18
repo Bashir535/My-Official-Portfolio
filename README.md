@@ -11,16 +11,22 @@ selected projects, technical skills, and contact information.
 - TypeScript for typed application code
 - HTML through semantic JSX markup
 - Custom CSS for the visual system, responsive layouts, and interaction states
-- Tailwind CSS 4 as the project CSS processor; the design itself uses custom CSS
-- Geist and Geist Mono for typography
+- System sans-serif and monospace typography
 
 ### Development and build tooling
 
 - Node.js and npm for the local development environment and dependencies
 - Vite 8 for fast local compilation and production builds
-- vinext for the Next-compatible React application structure
 - ESLint for code-quality checks
 - Git for source control
+
+### Deployment
+
+- Standard static Vite build compatible with Vercel
+
+### Design asset
+
+- Custom social-sharing preview image
 
 ## Run locally
 
@@ -31,7 +37,8 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open the local URL printed by Vite, normally
+[http://localhost:5173](http://localhost:5173).
 
 ## Production build
 
@@ -41,10 +48,17 @@ npm run build
 
 ## Main project files
 
-- `app/page.tsx` — portfolio content and React components
-- `app/globals.css` — visual design and responsive styling
-- `app/layout.tsx` — fonts, metadata, and social-sharing configuration
+- `src/App.tsx` — portfolio content and React components
+- `src/styles.css` — visual design and responsive styling
+- `src/main.tsx` — React application entry point
+- `index.html` — page metadata and social-sharing configuration
 - `public/og.png` — social-sharing preview image
+
+## Deploy with Vercel
+
+Import the GitHub repository into Vercel. Use `npm run build` as the build
+command and `dist` as the output directory. Every push to `main` will trigger a
+new production deployment after the repository is connected.
 
 ## Contact
 
