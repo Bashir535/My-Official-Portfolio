@@ -22,17 +22,6 @@ selected projects, technical skills, and contact information.
 - ESLint for code-quality checks
 - Git for source control
 
-### Hosting
-
-- Cloudflare Workers-compatible build output
-
-### Design asset
-
-- Custom social-sharing preview image
-
-Drizzle and the optional database examples are included by the starter but are not
-used by this portfolio.
-
 ## Run locally
 
 Requirements: Node.js 22.13 or newer.
