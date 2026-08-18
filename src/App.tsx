@@ -1,11 +1,3 @@
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Bashir Moamer | Software Engineer",
-  description:
-    "Fourth-year Software Engineering student at San José State University focused on full-stack development, AI systems, cloud technologies, and enterprise software.",
-};
-
 const projectData = [
   {
     number: "01",
@@ -63,7 +55,7 @@ const projectData = [
       "Performance-focused implementation",
       "Search-optimized metadata",
     ],
-    technologies: ["React", "TypeScript", "CSS", "Vite", "Git", "Cloudflare"],
+    technologies: ["React", "TypeScript", "CSS", "Vite", "Git", "Vercel"],
     focus: "Frontend engineering",
   },
 ];
@@ -87,7 +79,7 @@ function SectionHeading({ number, title }: { number: string; title: string }) {
   );
 }
 
-export default function Home() {
+export default function App() {
   return (
     <main>
       <header className="site-header">
